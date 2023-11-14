@@ -13,7 +13,7 @@
 }
 /* tilty classes */
 .text-big {
-  font-size: 7vmin;
+  font-size: 6vmin;
   font-weight: 500;
   color: var(--DarkBlue);
 }
@@ -82,8 +82,7 @@ header .menu {
 .menu li {
   list-style: none;
   position: relative;
-  color: var(--DarkBlue);
-  font-weight: 700;
+  color: var(--GrayishBlue);
 }
 .menu li:hover::after {
   position: absolute;
@@ -132,7 +131,7 @@ button:hover {
 
 .section1 {
   width: 100%;
-  height: 95vh;
+  height: 80vh;
   background: var(--VeryLightGray);
   display: flex;
   justify-content: space-between;
@@ -140,7 +139,7 @@ button:hover {
 }
 
 .section1 .left {
-  width: 34%;
+  width: 36%;
   height: 100%;
   display: flex;
   flex-direction: column;
@@ -169,7 +168,7 @@ button:hover {
   width: 100%;
   background-color:var(--LightGray);
   padding: 75px 7%;
-  margin-top: -7%;
+  margin-top: -8%;
 }
 
 .section2 .heading {
@@ -186,7 +185,7 @@ button:hover {
   gap: 25px;
 }
 .box-container .box {
-  width: 290px;
+  width: 285px;
 }
 
 .box h3 {
